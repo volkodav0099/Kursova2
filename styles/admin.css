@@ -1,0 +1,38 @@
+.tab-content {
+  display: none;
+}
+body {
+    background-color: #ffffff !important;
+    color: #f0c674;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 20px;
+}
+.tab-content.active {
+  display: block;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.form-check-input {
+  width: 18px;
+  height: 18px;
+}
+.nav-tabs .nav-link {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 10px 15px;
+  border-radius: 5px 5px 0 0;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #007bff;
+  color: white !important;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
